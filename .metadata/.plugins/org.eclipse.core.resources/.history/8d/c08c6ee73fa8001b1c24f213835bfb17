@@ -1,0 +1,12 @@
+package com.cursojava.aula43exe;
+
+public class ZooTeste {
+
+	public static void main(String[] args) {
+
+		Peixe peixe = new Peixe();
+		
+		System.out.println(peixe);
+	}
+
+}

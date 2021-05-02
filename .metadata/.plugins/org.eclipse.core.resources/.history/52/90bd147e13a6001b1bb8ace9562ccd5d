@@ -1,0 +1,5 @@
+package com.cursojava.aula43exe;
+
+public class ContaEspecial extends ContaBancaria{
+
+}

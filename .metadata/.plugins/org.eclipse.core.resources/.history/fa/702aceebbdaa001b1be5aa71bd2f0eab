@@ -1,0 +1,19 @@
+package com.cursojava.aula52exe;
+
+public class Agenda extends Contato{
+	
+	private Contato[] contatos;
+	
+	public Agenda() {
+		contatos = new Contato[5];
+	}
+	
+	public void Consultar(String nome) {
+		nome = super.getNome();  
+	}
+	
+	public void Adicionar() {
+		
+	}
+
+}

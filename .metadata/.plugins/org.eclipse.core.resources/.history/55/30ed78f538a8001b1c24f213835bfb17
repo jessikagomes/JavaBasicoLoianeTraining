@@ -1,0 +1,12 @@
+package com.cursojava.aula43exe;
+
+public class Peixe extends Animal{
+	
+	
+	@Override
+	public void setCor(String cor) {
+		super.setCor("cinza");
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.cursojava.aula43exe;
+
+public class ContaEspecial extends ContaBancaria {
+
+	private double limite;
+
+	public void sacar(double n) {
+		double saldo = super.getSaldo();
+		if (saldo > n) {
+			saldo -=n;
+		}else if(limite > n){
+			saldo -=n;
+		}else {
+			System.out.println("Saldo insuficiente");
+		}
+	}
+}

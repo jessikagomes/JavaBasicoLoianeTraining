@@ -1,0 +1,36 @@
+package com.cursojava.aula43exe;
+
+public class ContaPoupanca extends ContaBancaria{
+	
+	private int diaRendimento;
+	
+	public void calcularNovoSaldo() {
+		
+	}
+
+	public ContaPoupanca(int diaRendimento) {
+		super();
+		this.diaRendimento = diaRendimento;
+	}
+	
+	public int getDiaRendimento() {
+		return diaRendimento;
+	}
+
+	public void setDiaRendimento(int diaRendimento) {
+		this.diaRendimento = diaRendimento;
+	}
+
+	@Override
+	public String toString() {
+		return "ContaPoupanca [diaRendimento=" + diaRendimento + ", getNomeCliente()=" + getNomeCliente()
+				+ ", getNumConta()=" + getNumConta() + ", getSaldo()=" + getSaldo() + "]";
+	}
+
+	public ContaPoupanca() {
+		super();
+	}
+
+	
+
+}

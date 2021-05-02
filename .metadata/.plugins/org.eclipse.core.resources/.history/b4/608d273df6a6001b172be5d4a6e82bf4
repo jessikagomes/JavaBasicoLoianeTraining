@@ -1,0 +1,29 @@
+package com.cursojava.aula43exe;
+
+
+public class TesteContribuinte {
+
+	public static void main(String[] args) {
+		
+		Contribuinte contribuinte = new Contribuinte();
+		PessoaJuridica pj = new PessoaJuridica();
+		PessoaFisica pf = new PessoaFisica();
+		
+		contribuinte.setRenda(2500);
+		contribuinte.calcularImposto();
+		System.out.println(contribuinte.getImposto());
+		
+		System.out.println("-----------------");
+		
+		pj.setRenda(2500);
+		pj.calcularImposto();
+		System.out.println(pj.getImposto());
+		
+		System.out.println("-----------------");
+		pf.setRenda(1401);
+		pf.calcularImposto();
+		System.out.println(pf.getImposto());
+
+	}
+
+}

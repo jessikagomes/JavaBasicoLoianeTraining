@@ -1,0 +1,17 @@
+package com.cursojava.aula46;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		Triangulo triangulo = new Triangulo();
+		triangulo.setNome("Triangulo");
+		triangulo.setBase(10);
+		triangulo.setAltura(20);
+		
+		Circulo circulo = new Circulo();
+		circulo.setNome("Circulo");
+		
+	}
+
+}

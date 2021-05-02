@@ -1,0 +1,20 @@
+package com.cursojava.aula43exe;
+
+public class TesteContaBancaria {
+
+	public static void main(String[] args) {
+
+		ContaPoupanca contPoup = new ContaPoupanca(15);
+		ContaEspecial contEsp = new ContaEspecial(300);
+		
+		contPoup.setSaldo(200.00);
+		contPoup.setNomeCliente("Joao");
+		contPoup.setNumConta("0800");
+		
+		contEsp.setSaldo(200);
+		
+		contPoup.sacar(50);
+		System.out.println(contPoup);
+	}
+
+}

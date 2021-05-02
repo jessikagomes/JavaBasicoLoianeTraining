@@ -1,0 +1,10 @@
+package com.cursojava.aula48;
+
+public class MultiplosCatchJava7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.cursojava.aula43exe;
+
+import java.util.Scanner;
+
+public class TesteContribuinte {
+
+	public static void main(String[] args) {
+		
+		PessoaJuridica pj = new PessoaJuridica();
+		PessoaFisica pf = new PessoaFisica();
+		
+		Scanner scan = new Scanner(System.in);
+		int resposta = 0;
+		String contribuinte;
+		System.out.println("-------FEE INFORMATION----------");
+		while(resposta != 2){
+			System.out.println("Você deseja continuar? Sim[1] / Não[2]");
+			resposta = scan.nextInt();
+			System.out.println("Você é Pessoa Fisica ou Juridica? [F]/[J]");
+		
+			contribuinte = scan.nextLine();
+			if(contribuinte == "f" || contribuinte == "F") {
+				System.out.println("Digite seu nome: ");
+				pf.setNome(scan.next());
+				System.out.println("Digite sua renda: ");
+				pf.setRenda(scan.nextDouble());
+				pf.calcularImposto();
+			}else if(contribuinte == "J" || contribuinte == "j") {
+				System.out.println("Digite seu nome: ");
+				pj.setNome(scan.next());
+				System.out.println("Digite sua renda: ");
+				pj.setRenda(scan.nextDouble());
+				pj.calcularImposto();
+			}else {
+				System.out.println("Resposta inválida");
+			}
+		}
+		
+	}
+
+}

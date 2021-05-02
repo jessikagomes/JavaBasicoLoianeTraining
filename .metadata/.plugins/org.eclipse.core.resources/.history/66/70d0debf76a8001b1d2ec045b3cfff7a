@@ -1,0 +1,8 @@
+package com.cursojava.aula44;
+
+public interface AnimalDomestico {
+	
+	void levarPassear();
+	void brincar();
+
+}

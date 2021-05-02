@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="sun.security.action.GetBooleanAction"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula44.AnimalEstimacao"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula44.AnimalDomesticado"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula46.Figura2D"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula46.Figura3D"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula46.DimensaoSuperficial"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula46.DimensaoVolumetrica"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula46.FiguraGeometrica"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.Context.ThrowErrorManager"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula52exe.AgendaCheiaException"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula52exe.ContatoNaoExisteException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula52exe.Contato"/>
+</qualifiedTypeNameHistroy>

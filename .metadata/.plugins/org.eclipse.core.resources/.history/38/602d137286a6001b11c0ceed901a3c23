@@ -1,0 +1,44 @@
+package com.cursojava.aula43exe;
+
+public class ContaEspecial extends ContaBancaria {
+
+	private double limite;
+	
+	public void saldo() {
+		double saldo = super.getSaldo();
+		saldo = saldo - limite;
+	}
+	
+	public double sacar(double n) {
+		double saldo = super.getSaldo();
+		if (saldo > n) {
+			saldo -=n;
+		}else if(limite + saldo > n){
+			saldo -=n;
+			limite = limite - saldo;
+		}else {
+			System.out.println("Saldo insuficiente");
+		}
+		return saldo;
+	}
+	
+	@Override
+	public String toString() {
+		return "ContaEspecial [limite=" + limite + ", getLimite()=" + getLimite() + ", getNomeCliente()="
+				+ getNomeCliente() + ", getNumConta()=" + getNumConta() + ", getSaldo()=" + getSaldo() + "]";
+	}
+
+	
+	public ContaEspecial(double limite) {
+		super();
+		this.limite = limite;
+	}
+
+	public double getLimite() {
+		return limite;
+	}
+
+	public void setLimite(double limite) {
+		this.limite = limite;
+	}
+}

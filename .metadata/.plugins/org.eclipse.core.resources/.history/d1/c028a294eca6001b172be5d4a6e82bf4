@@ -1,0 +1,14 @@
+package com.cursojava.aula43exe;
+
+
+public class TesteContribuinte {
+
+	public static void main(String[] args) {
+		
+		Contribuinte contribuinte = new Contribuinte();
+		
+		
+		System.out.println();
+	}
+
+}

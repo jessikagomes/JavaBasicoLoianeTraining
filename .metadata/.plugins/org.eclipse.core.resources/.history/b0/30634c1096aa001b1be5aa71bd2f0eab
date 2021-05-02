@@ -1,0 +1,10 @@
+package com.cursojava.aula48;
+
+public class TestandoFinally {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

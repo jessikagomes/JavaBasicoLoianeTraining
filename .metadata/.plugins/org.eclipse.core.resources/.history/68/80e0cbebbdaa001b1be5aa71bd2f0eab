@@ -1,0 +1,10 @@
+package com.cursojava.aula52exe;
+
+public class AgendaCheiaException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

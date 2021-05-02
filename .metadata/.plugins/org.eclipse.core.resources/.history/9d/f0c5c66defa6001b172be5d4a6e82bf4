@@ -1,0 +1,15 @@
+package com.cursojava.aula43exe;
+
+
+public class TesteContribuinte {
+
+	public static void main(String[] args) {
+		
+		Contribuinte contribuinte = new Contribuinte();
+		
+		contribuinte.setRenda(2.500);
+		contribuinte.calcularImposto();
+		System.out.println(contribuinte.getImposto());
+	}
+
+}

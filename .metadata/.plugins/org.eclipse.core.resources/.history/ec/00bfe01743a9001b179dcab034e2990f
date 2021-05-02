@@ -1,0 +1,11 @@
+ package com.cursojava.aula46;
+
+public class Piramide extends Figura3D implements DimensaoVolumetrica{
+
+	@Override
+	public void calcularVolume() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

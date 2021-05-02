@@ -1,0 +1,13 @@
+package com.cursojava.aula52exe;
+
+public class Agenda {
+	
+	public void Consultar() {
+		
+	}
+	
+	public void Adicionar() {
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.cursojava.aula43exe;
+
+public class ZooTeste {
+
+	public static void main(String[] args) {
+
+		System.out.println("Zoo:");
+		System.out.println("-----------------");
+		
+		Animal camelo = new Animal();
+		camelo.setNome("Camelo");
+		camelo.setAmbiente("Deserto");
+		camelo.setComprimento(200);
+		camelo.setVelocidade(2);
+		camelo.setCor("Caramelo");		
+		System.out.println(camelo);
+		
+		Peixe tubarao = new Peixe();
+		tubarao.setNome("Tubarao");
+		tubarao.setComprimento(300);
+		tubarao.setVelocidade(1.5);
+		System.out.println(tubarao);
+		
+		Mamifero urso = new Mamifero();
+		urso.setNome("Urso do Canada");
+		urso.setComprimento(180);
+		
+
+	}
+
+}
