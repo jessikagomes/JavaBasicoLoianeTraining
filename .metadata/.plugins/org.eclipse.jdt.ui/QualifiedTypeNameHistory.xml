@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="sun.security.action.GetBooleanAction"/>
     <fullyQualifiedTypeName name="com.cursojava.aula44.AnimalEstimacao"/>
     <fullyQualifiedTypeName name="com.cursojava.aula44.AnimalDomesticado"/>
@@ -17,4 +16,27 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.cursojava.aula52exe.Contato"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula53.DiaSemana"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula56.GeraCpfCnpj"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula56.TipoDocumento"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula56exe.OperacoesMatematicas"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.utilities.IntegerEnum"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula60.EscopoVariaveis"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula64.Externa"/>
+    <fullyQualifiedTypeName name="Classelocal"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula64.Externa2"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula65.InformacaoAula"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula67.MinhaThread"/>
+    <fullyQualifiedTypeName name="com.cursojava.aula68.MinhaThreadRunnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>

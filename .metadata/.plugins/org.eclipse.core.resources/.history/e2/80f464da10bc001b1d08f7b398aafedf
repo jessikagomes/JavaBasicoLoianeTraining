@@ -1,0 +1,13 @@
+package com.cursojava.aula75_84;
+
+public class Aula82 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println();
+
+
+	}
+
+}

@@ -1,8 +1,0 @@
-package com.cursojava.aula46;
-
-public class FiguraGeometrica {
-	
-	private String nome;
-	private String cor;
-
-}

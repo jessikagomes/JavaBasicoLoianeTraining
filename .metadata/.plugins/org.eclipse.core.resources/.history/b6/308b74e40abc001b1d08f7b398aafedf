@@ -1,0 +1,18 @@
+package com.cursojava.aula75_84;
+
+public class Aula78 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String ola = "Olá";
+		String ola2 = "OLÁ";
+		String ola3 = "Olá";
+
+		System.out.println(ola.valueOf(ola3) + ola.equals(ola2));
+		System.out.println(ola.equals(ola3));
+		System.out.println(ola.equalsIgnoreCase(ola2));
+
+	}
+
+}

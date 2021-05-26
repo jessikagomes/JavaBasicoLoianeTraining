@@ -1,8 +1,10 @@
-## Curso de Java Básico - Loiane Training :coffee:
+## Curso de Java Básico e Intermediário - Loiane Training :coffee:
 
-Assista o curso gratuitamente em: Playlist Curso de Java Basico [Site](https://www.youtube.com/watch?v=LnORjqZUMIQ&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
+Assista o curso gratuitamente em: Playlist Curso de Java Básico e Intermediário [Site](https://www.youtube.com/watch?v=LnORjqZUMIQ&list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
 
-Meu Certificado de 30h de curso [Veja Meu Certificado](https://loiane.training/certificado/Jk6FMBsPT6e2DoIR1Ejd)
+Meus certificados de 39h de cursos [Certificado Java Básico](https://loiane.training/certificado/Jk6FMBsPT6e2DoIR1Ejd) e [Certificado Intermediário](https://loiane.training/certificado/CPrk3N11m7clemYIfmvr)
+
+Curso extra Digital Innovation One -  Java Basico 9h [Certificado DIO](https://drive.google.com/file/d/1FBPG6w_zJwCcsX3cceaWqcOtwguEUBU3/view?usp=sharing)
 
 #### :space_invader:Cronograma
 
@@ -15,7 +17,11 @@ Meu Certificado de 30h de curso [Veja Meu Certificado](https://loiane.training/c
 - [ ] Orientação à Objetos e Java
 - [ ] OO: Herança, Interfaces e Polimorfismo
 - [ ] Tratamento de erros e exceções
-  
+- [ ] Enumeradores
+- [ ] Elementos básicos da linguagem Java
+- [ ] Programação multi-tarefas: Threads
+- [ ] Trabalhando com Strings
+- [ ] Classes Utilitárias (Datas, Locale, Math)
 
 #### :space_invader:Pré requisitos
 
