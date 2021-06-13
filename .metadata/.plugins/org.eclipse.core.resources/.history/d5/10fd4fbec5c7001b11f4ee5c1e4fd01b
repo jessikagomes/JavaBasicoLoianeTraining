@@ -1,0 +1,57 @@
+package desafiosDio2;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class AnaliseNumero {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		//Scanner leitor = new Scanner(System.in);
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	    StringTokenizer st = new StringTokenizer(br.readLine());
+	    //int valor1 = Integer.parseInt(st.nextToken());
+
+	    st = new StringTokenizer(br.readLine());
+	    //int valor2 = Integer.parseInt(st.nextToken());
+
+		//declare suas variaveis corretamente
+		int[] numeros = new int[5];
+		        
+		int par, impar, negativo, positivo;
+		par = 0;
+		impar =0;
+		negativo = 0;
+		positivo = 0;
+
+		//continue a solução
+		st = new StringTokenizer(br.readLine());
+		numeros[0] = Integer.parseInt(st.nextToken());			
+		st = new StringTokenizer(br.readLine());
+		numeros[1] = Integer.parseInt(st.nextToken());
+		st = new StringTokenizer(br.readLine());
+		numeros[2] = Integer.parseInt(st.nextToken());
+		st = new StringTokenizer(br.readLine());
+		numeros[3] = Integer.parseInt(st.nextToken());
+		st = new StringTokenizer(br.readLine());
+		numeros[4] = Integer.parseInt(st.nextToken());
+		
+		for (int i=0; i < numeros.length; i++) {
+			if(numeros[i] > 0 && numeros[i] %2 == 0) {
+				positivo = positivo+1;
+				par ++;
+		}
+		}
+		//insira suas variaveis corretamente
+		System.out.println(par + " valor(es) par(es)");
+		System.out.println(impar + " valor(es) impar(es)");
+		System.out.println(positivo + " valor(es) positivo(s)");
+		System.out.println(negativo + " valor(es) negativo(s)");
+		
+	}
+
+}

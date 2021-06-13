@@ -1,0 +1,10 @@
+package desafiosDIO2;
+
+public class CalculoDeViagem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
